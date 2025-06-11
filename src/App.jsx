@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <div className='bg-black w-screen min-h-screen '>
         <div className='flex  justify-center items-center'>
-        <h1 className='uppercase md:text-7xl text-3xl text-white '>check to-do-list</h1>
+        <h1 className='uppercase md:text-7xl text-3xl text-white  my-5'>check to-do-list</h1>
 
         </div>
        
