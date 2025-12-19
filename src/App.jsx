@@ -4,14 +4,13 @@ import List from './component/List'
 const App = () => {
   return (
     <div>
-      <div className='bg-gray-900 w-screen min-h-screen '>
-        <div className='flex  justify-center items-center'>
-        <h1 className='uppercase md:text-7xl text-3xl text-white  my-5'>check to-do-list</h1>
+      <div className='bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 w-screen min-h-screen'>
+        <div className='flex justify-center items-center pt-8 pb-6'>
+          <h1 className='uppercase md:text-7xl text-4xl text-white font-bold drop-shadow-lg'>✨ My Tasks</h1>
         </div>
 
         <List />
       </div>
-      {/* <List /> */}
     </div>
   )
 }
